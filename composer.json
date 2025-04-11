@@ -34,8 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfolador\\Measures\\": "src",
-            "Sfolador\\Measures\\Database\\Factories\\": "database/factories"
+            "Sfolador\\Measures\\": "src"
         }
     },
     "autoload-dev": {
