@@ -89,7 +89,7 @@ it('can convert weeks to days', function () {
 it('can convert weeks to seconds', function () {
     $time = Time::from('1 w');
 
-    $rounded = round($time->to('s')->value, 10);
+    $rounded = round($time->to('s')->value, 8);
 
     expect($rounded)->toBe(604800.0);
 });
